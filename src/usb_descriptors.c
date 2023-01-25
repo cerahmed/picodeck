@@ -224,7 +224,7 @@ char const* string_desc_arr [] =
   (const char[]) { 0x09, 0x04 }, // 0: is supported language is English (0x0409)
   "Elgato",                     // 1: Manufacturer
   "Stream Deck Pedal",              // 2: Product
-  "ZZZZZZZZZZZZZ",                      // 3: Serials, should use chip ID
+  "YYYYYYYYYYYYY",                      // 3: Serials, should use chip ID
 };
 
 static uint16_t _desc_str[32];
