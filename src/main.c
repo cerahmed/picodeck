@@ -29,8 +29,8 @@ void neopixel_task(void);
 void hid_task(void);
 
 #define BUTTON_1_GPIO 1
-#define BUTTON_2_GPIO 5
-#define BUTTON_3_GPIO 9
+#define BUTTON_2_GPIO 2
+#define BUTTON_3_GPIO 3
 
 static inline void put_pixel(uint32_t pixel_grb)
 {
